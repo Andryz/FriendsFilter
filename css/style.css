@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: gray;
+}
+/* =========header======== */
+
+.friends_main_header {
+display: flex;
+justify-content: space-between;
+background-color:  #ff8663;
+padding: 5px;
+color: white;
+border-radius: 7px 7px 0px 0px;
+}
+
+.friends_main_header-button {
+    display: inline;
+}
+
+h2 {
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+
+
+/* ======search======*/
+.friends_main_search {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e7e7e7;
+
+}
+input {
+    border-radius: 18px;
+    margin: 10px;
+    border-color: white;
+    border-style: solid;
+}
+.friends_main_search-left, .friends_main_search-right {
+    background: url(/css/font/musica-searcher.svg) no-repeat scroll 7px 7px;
+    background-size: 14px 14px;
+    padding: 5px 5px 5px 25px;
+    background-color: white;
+    width: 50%;
+}   
+
+input {
+    font-size: 1em;
+}
+
+/* ======main content====== */
+
+.friends_main_content {
+display: flex;
+justify-content: space-around;
+background-color: white;
+height: 350px;
+padding: 0 20px 0px 20px;
+width: 600px;
+}
+
+.friends_main_content-left , .friends_main_content-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.friends_main_content_title {
+    text-align: left;
+    padding-bottom: 10px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    
+}
+
+.friends_main_content_list {
+    height: 100%;
+    overflow: auto;  
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0 10px 5px;
+}
+
+
+.flaticon-add, .flaticon-delete {
+    color: #e7e7e7;
+    padding: 25px;
+    cursor: pointer;
+}
+
+
+li {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #e7e7e7;   
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #f1ecec;
+}
+
+
+span {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.photo {
+  	height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+h4 {
+    padding-left: 6px;
+}
+/* ======footer======= */
+
+.friends_main_footer {
+display: flex;
+justify-content: flex-end;
+background-color: #e7e7e7;
+padding: 5px;
+border-radius: 0 0 7px 7px;
+}
+.friends_main_footer-button {
+background-color:  #ff8663;
+color: white;
+border-radius: 12px;
+border-color: #ff8663;
+border-style: solid;
+font-size: 12px;
+padding: 8px 15px;
+margin: 3px;
+}
