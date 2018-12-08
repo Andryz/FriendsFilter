@@ -14,7 +14,6 @@ body {
     font-size: 12px;
     background-color: gray;
 }
-/* =========header======== */
 
 .friends_main_header {
 display: flex;
@@ -34,8 +33,6 @@ h2 {
     padding-left: 10px;
 }
 
-
-/* ======search======*/
 .friends_main_search {
     display: flex;
     justify-content: space-around;
@@ -59,8 +56,6 @@ input {
 input {
     font-size: 1em;
 }
-
-/* ======main content====== */
 
 .friends_main_content {
 display: flex;
@@ -130,7 +125,6 @@ span {
 h4 {
     padding-left: 6px;
 }
-/* ======footer======= */
 
 .friends_main_footer {
 display: flex;
